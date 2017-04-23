@@ -1,0 +1,21 @@
+Method	Amir5.zx[]
+	0	ISTORE #-1
+	1	ILOAD #-1
+	2	ICONST 8 Code2
+	3	ILOAD #-1
+	4	ICONST 3 Code2
+	5	INVOKEVIRTUAL f.g
+	6	ICONST 0 Code2
+	7	RETURN 
+Method	Amir5.e[a]
+	0	ISTORE #0
+	1	ILOAD #0
+	2	RETURN 
+Method	testArray.kryesore[]
+	0	INVOKEVIRTUAL Amir5.zx
+	1	PRINT 
+	2	STOP 
+Method	f.g[i]
+	0	ISTORE #0
+	1	ICONST 0 Code2
+	2	RETURN 

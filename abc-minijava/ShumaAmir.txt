@@ -1,0 +1,113 @@
+Method	Test.hehe[c]
+	0	ISTORE #0
+	1	ILOAD #0
+	2	RETURN 
+Method	kot.hehe[c, a]
+	0	ISTORE #0
+	1	ICONST "sss" Code2
+	2	ISTORE #1
+	3	ICONST "a" Code2
+	4	PRINT 
+	5	ILOAD #1
+	6	PRINT 
+	7	ICONST true Code2
+	8	PRINT 
+	9	ICONST "dd" Code2
+	10	RETURN 
+Method	ShumaAmir.kryesore[]
+	0	ICONST 12 Code2
+	1	INVOKEVIRTUAL Test.shuma
+	2	PRINT 
+	3	STOP 
+Method	Test.shuma[s, shuma]
+	0	ISTORE #0
+	1	ICONST 0 Code2
+	2	ISTORE #1
+	3	ICONST 0 Code2
+	4	ILOAD #0
+	5	ILT 
+	6	IF_FALSE 16
+	7	ILOAD #1
+	8	ILOAD #0
+	9	IADD 
+	10	ISTORE #1
+	11	ILOAD #0
+	12	ICONST 1 Code2
+	13	ISUB 
+	14	ISTORE #0
+	15	GOTO 3
+	16	ICONST 1 Code2
+	17	ILOAD #1
+	18	ILT 
+	19	IF_FALSE 23
+	20	ICONST false Code2
+	21	PRINT 
+	22	GOTO 25
+	23	ICONST false Code2
+	24	PRINT 
+	25	ICONST true Code2
+	26	PRINT 
+	27	ILOAD #1
+	28	PRINT 
+	29	ILOAD #1
+	30	ICONST "fsn" Code2
+	31	IADD 
+	32	PRINT 
+	33	ICONST true Code2
+	34	ICONST "fs" Code2
+	35	IADD 
+	36	PRINT 
+	37	ICONST 5 Code2
+	38	ICONST true Code2
+	39	IADD 
+	40	PRINT 
+	41	ICONST true Code2
+	42	ICONST 5 Code2
+	43	IADD 
+	44	PRINT 
+	45	ICONST 2 Code2
+	46	ICONST "fs" Code2
+	47	IADD 
+	48	PRINT 
+	49	ICONST false Code2
+	50	ICONST "fs" Code2
+	51	IADD 
+	52	PRINT 
+	53	ICONST false Code2
+	54	ICONST 1 Code2
+	55	IADD 
+	56	PRINT 
+	57	ICONST "fs" Code2
+	58	ICONST false Code2
+	59	IADD 
+	60	PRINT 
+	61	ICONST "fs" Code2
+	62	ICONST true Code2
+	63	IADD 
+	64	PRINT 
+	65	ICONST "mairama" Code2
+	66	INVOKEVIRTUAL kot.hehe
+	67	PRINT 
+	68	ICONST "mairama" Code2
+	69	INVOKEVIRTUAL Test.hehe
+	70	PRINT 
+	71	ICONST 7 Code2
+	72	ICONST 5 Code2
+	73	ILT 
+	74	IF_FALSE 78
+	75	ICONST "madhe" Code2
+	76	PRINT 
+	77	GOTO 80
+	78	ICONST "vogel" Code2
+	79	PRINT 
+	80	ICONST 7 Code2
+	81	ICONST 5 Code2
+	82	null
+	83	IF_FALSE 87
+	84	ICONST "madhe" Code2
+	85	PRINT 
+	86	GOTO 89
+	87	ICONST "vogel" Code2
+	88	PRINT 
+	89	ILOAD #1
+	90	RETURN 
